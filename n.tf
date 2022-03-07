@@ -17,6 +17,7 @@ resource "null_resource" "n" {
   triggers = {
     uuid = uuid()
   }
+
   provisioner "local-exec" {
     command = "ls -a"
     #command = "cat *.tf.json"
