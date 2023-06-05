@@ -16,3 +16,8 @@ resource "null_resource" "n" {
     command = "ls -a"
   }
 }
+
+import {
+  to = aws_s3_bucket.b
+  id = "upright-yak"
+}
