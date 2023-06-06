@@ -17,7 +17,9 @@ resource "null_resource" "n" {
   }
 }
 
+/*
 import {
   to = aws_s3_bucket.b
   id = "upright-yak"
 }
+*/
